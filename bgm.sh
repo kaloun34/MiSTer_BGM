@@ -19,7 +19,7 @@ HISTORY_SIZE = 0.2  # ratio of total tracks to keep in play history
 SOCKET_FILE = "/tmp/bgm.sock"
 MESSAGE_SIZE = 4096  # max size of socket payloads
 MIDI_PORT = "128:0"
-SCRIPTS_FOLDER = "/media/fat/Scripts/other_authors"
+SCRIPTS_FOLDER = SCRIPTS_FOLDER = os.path.dirname(os.path.realpath(__file__))
 STARTUP_SCRIPT = "/media/fat/linux/user-startup.sh"
 CORENAME_FILE = "/tmp/CORENAME"
 LOG_FILE = "/tmp/bgm.log"
